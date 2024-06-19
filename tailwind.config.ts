@@ -67,8 +67,13 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        rotateText: {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(90deg)' },
+        },
       },
       animation: {
+         "rotate-ani": "rotateText 500ms ease-in-out forwards",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
