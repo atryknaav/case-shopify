@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className=' flex flex-col bg-[#1c1c1c] text-white'>
 
-        <div className='h-fit p-12 flex gap-[12rem]'>
+        <div className='h-fit p-12 flex gap-[12rem] justify-between'>
 
             <div className=' flex flex-col gap-4'>
                 <div className=' text-xl font-semibold mb-2'>
@@ -83,7 +83,7 @@ const Footer = () => {
             </div>
 
 
-            <div className=' border-[2px] rounded-full border-white p-6 h-fit text-6xl hover:scale-110 transition-all duration-200 hover:cursor-pointer'>
+            <div className=' border-[2px] rounded-full border-white p-6 h-fit text-6xl hover:scale-110 transition-all duration-200 hover:cursor-pointer flex content-end'>
             <GoArrowUp />
             </div>
 
@@ -92,7 +92,7 @@ const Footer = () => {
         <div className=' h-fit border-t-[1px] border-white flex justify-between px-12 py-6'>
             
             <div className=' text-3xl'>
-                <div className=' border-[1px] rounded-full border-white p-3 hover:bg-white hover:text-black transition duration-500'>
+                <div className=' border-[1px] rounded-full border-white p-3 hover:bg-white hover:text-black transition duration-500 '>
 
                 <MdLanguage />
 
